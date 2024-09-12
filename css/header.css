@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    height: auto;
+}
+
+.header__nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-item{
+    margin-right: 51px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.header__title{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-nav-lastles-vpn{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    cursor: pointer;
+}    
+.header-nav-lastles-vpn.lastles{
+    font-weight: 500;
+}
+.header-nav-lastles-vpn.vpn{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.header_sign-in{
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+.header_sign-up{
+    color: #f53855;
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1px solid #f53855;
+}
+.logo{
+    width: 35px;
+    height: 36.232px;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}

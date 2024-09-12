@@ -1,0 +1,60 @@
+.services {
+    height: 637px;
+}
+
+.services__title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.services__pr {
+    color: #4F5665;
+    text-align: left;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container__list {
+    width: auto;
+}
+
+.right-align {
+    text-align: right;
+}
+
+ul.list__check {
+    list-style-type: none;
+    align-items: right;
+    padding-left: 0;
+}
+
+ul.list__check li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+ul.list__check li::before {
+    content: url('../images/bx_bxs-check-circle.svg');
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.services__inno {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-cont {
+    margin-right: 10%;
+}
+
+.services {
+    display: flex;
+}
