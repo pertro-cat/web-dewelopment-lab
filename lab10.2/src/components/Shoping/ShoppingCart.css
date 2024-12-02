@@ -1,0 +1,90 @@
+.shopping-cart {
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.empty-cart p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.cart-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.cart-item-details h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.cart-item-details p {
+    margin: 5px 0;
+}
+
+hr {
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.total {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button,
+.continue-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button {
+    background-color: white;
+    color: #121212;
+}
+
+.continue-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.back-button:hover,
+.continue-button:hover {
+    opacity: 0.8;
+}

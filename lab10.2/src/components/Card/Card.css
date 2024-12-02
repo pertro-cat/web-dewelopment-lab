@@ -1,0 +1,79 @@
+.main-rocket-card {
+    width: 90%;
+    margin: 0 auto;
+    /* Вирівнювання по центру */
+    padding: 0;
+}
+
+.rocket-card {
+    display: flex;
+    flex-direction: row;
+    /* Розміщення зображення ліворуч, а тексту праворуч */
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #000;
+    /* Темний фон */
+    margin-bottom: 40px;
+}
+
+.rocket-card__info {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.rocket-card__info h2,
+.rocket-card__info p {
+    margin: 8px 0;
+}
+
+.rocket-card__info p {
+    color: #ddd;
+    /* Легший відтінок для тексту */
+}
+
+.rocket-card__about {
+    margin-top: auto;
+    /* Автоматичне розташування внизу */
+    padding-top: 100px;
+    border-top: 1px solid #ddd;
+    color: #fff;
+    /* Білий текст */
+}
+
+.rocket-card__image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.rocket-card__image img {
+    width: 100%;
+    height: auto;
+}
+
+.rocket-card {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rocket-card__info {
+    margin-bottom: 20px;
+}
+
+.rocket-price {
+    color: red;
+    font-weight: bold;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 25px;
+}

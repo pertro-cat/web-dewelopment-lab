@@ -1,0 +1,73 @@
+.App {
+    background-color: black;
+}
+
+/* Стиль для тіла сторінки */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /* Чорний фон */
+    color: #fff;
+    /* Білий текст для контрасту */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Основний контейнер для додаткової стилізації */
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    /* Чорний фон */
+}
+
+/* Контейнер для вирівнювання форм */
+.forms-container {
+    display: flex;
+    justify-content: space-between;
+    /* Рівні відступи між формами */
+    align-items: flex-start;
+    /* Вирівнює форми по верхній лінії */
+    margin: 20px;
+    /* Зовнішні відступи */
+    gap: 20px;
+    /* Відстань між формами */
+    width: 90%;
+    /* Контейнер займає 90% від ширини екрану для ширших форм */
+}
+
+/* Кожна форма тепер буде займати до 40% ширини контейнера */
+.form {
+    flex: 1;
+    /* Додаємо гнучкість кожній формі */
+    max-width: 100%;
+    /* Збільшуємо ширину форми до 40% */
+}
+
+/* Вирівнюємо поля форми на 100% */
+input,
+select,
+textarea {
+    width: 100%;
+    /* Поля заповнюють всю ширину батьківського контейнера */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    /* Щоб padding не збільшував ширину полів */
+}
+
+button {
+    margin-right: 10px;
+}
+
+.view-more-button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e7110a;
+    border-radius: 50px;
+}
