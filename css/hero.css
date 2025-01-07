@@ -1,0 +1,51 @@
+.hero__title {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+/* .hero {
+    background-image: url(../images/Illustration1.png);
+    background-repeat: no-repeat;
+    background-position: right 50px top 100px;
+    background-attachment: fixed;
+    overflow: hidden;
+
+} */
+
+.hero__image {
+    position: absolute;
+    top: 171px;  
+    right: 200px; 
+}
+
+.vpn {
+    font-weight: 700;
+}
+
+.all__pr {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.pr__vpn {
+    font-weight: 500;
+}
+
+.container__inner {
+    padding-top: 230px;
+    position: relative;
+    width: 1440px;
+    height: 637px;
+    flex-shrink: 0;
+}
+
+.default-button.outlined {
+    background: transparent;
+    color: #291133;
+}

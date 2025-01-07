@@ -1,0 +1,40 @@
+.social-media {
+    height: 233px;
+    background-color: f5f4f4;
+}
+
+.social__media__inner {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 233px;
+    background-color: #f5f4f4;
+
+}
+
+
+.social__pr {
+    color: #AFB5C0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.social-lastles-vpn {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.social-lastles-vpn.vpn {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

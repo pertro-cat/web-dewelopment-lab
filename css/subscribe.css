@@ -1,0 +1,42 @@
+.subscribe {
+    height: 233px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: white;
+    transform: translateY(20%);
+}
+
+.subscribe__inner {
+    display: flex;
+    width: 80%;
+    text-align: left; 
+    
+}
+
+.just__subscribe {
+    display: flex;
+    flex-direction: column  ;
+}
+
+.subscribe__title {
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 0;
+}
+
+.subscribe__pr {
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button__cont {
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
