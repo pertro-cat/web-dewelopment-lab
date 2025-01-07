@@ -1,0 +1,155 @@
+.body {
+    background-color: black;
+}
+
+
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 60%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card__rocket {
+    padding: 20px;
+}
+
+.rocket__info {
+    width: 100%;
+}
+
+#image__of__rocket {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.rocket__info li {
+    margin-bottom: 10px;
+}
+
+.text-end {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .form,
+    .launch,
+    .card__rocket {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .card__rocket {
+        margin-top: 20px;
+    }
+
+    .video {
+        margin-top: 20px;
+    }
+}
+
+/* Для більших екранів */
+.video {
+    width: 100%;
+}
+
+.rocket-results-container {
+    max-height: 500px;
+    /* Висота контейнера */
+    overflow-y: auto;
+    /* Прокручування по вертикалі */
+    padding: 10px;
+    background-color: #282c34;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.rocket-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.modal-content {
+    background-color: #000000;
+    /* Чорний фон */
+}
+
+.modal-custom-size {
+    max-width: 70%;
+    /* Зменшення ширини модального вікна на 30% */
+}
+
+.modal-header,
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-close-white {
+    filter: invert(1);
+    /* Робить кнопку закриття білою */
+}
+
+/* Центрування тексту опису місії */
+.about__mission {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Динамічна сітка для форми і карток */
+.dynamic-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* Форма займає 1 частину, картки - 3 частини */
+    grid-gap: 20px;
+    /* Проміжок між формою і картками */
+    align-items: start;
+}
+
+@media (max-width: 768px) {
+    .dynamic-grid {
+        grid-template-columns: 1fr;
+        /* На малих екранах форма і картки стають вертикальними */
+    }
+}
+
+/* Стиль для карток */
+.rocket-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Автоматичне заповнення карток */
+    grid-gap: 15px;
+    /* Проміжок між картками */
+}
+
+.rocket-card {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
