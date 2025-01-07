@@ -1,0 +1,81 @@
+.footer {
+    background-color: #2c3e50;
+    /* Темний фон */
+    color: white;
+    /* Білий текст */
+    padding: 20px 0;
+    position: relative;
+    /* Для вирівнювання внизу */
+    width: 100%;
+    /* На всю ширину екрану */
+    display: flex;
+    flex-direction: column;
+    /* Встановлюємо вертикальне вирівнювання */
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* Контейнер на всю ширину */
+    margin: 0;
+    padding: 20px 40px;
+    /* Більше простору на краях */
+}
+
+.footer__info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* Проміжок між логотипом і текстом */
+}
+
+.footer__logo {
+    width: 50px;
+    /* Розмір логотипа */
+    height: auto;
+}
+
+.footer__links {
+    display: flex;
+    gap: 40px;
+    /* Більший простір між посиланнями */
+    margin-right: 50px;
+    /* Простір між посиланнями і соцмережами */
+    margin-left: 100px;
+    /* Простір між блоком логотипа і посиланнями */
+}
+
+.footer__links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__links a:hover {
+    text-decoration: underline;
+}
+
+.footer__social {
+    display: flex;
+    gap: 20px;
+    /* Більший простір між іконками */
+}
+
+.footer__social a img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Стиль для тексту копірайту, щоб його вирівняти внизу */
+.footer__copyright {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    /* Тонка лінія між основним контентом і копірайтом */
+    margin-top: 20px;
+    width: 100%;
+    /* На всю ширину */
+}
